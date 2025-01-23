@@ -15,7 +15,7 @@ import 'reflect-metadata'
 import { Ignitor, prettyPrintError } from '@adonisjs/core'
 
 // @todo: this is a workaround
-import '#start/validator'
+// import '#start/validator'
 
 /**
  * URL to the application root. AdonisJS need it to resolve

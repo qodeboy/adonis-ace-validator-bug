@@ -6,7 +6,9 @@ export default class Ping extends BaseCommand {
   static commandName = 'ping'
   static description = ''
 
-  static options: CommandOptions = {}
+  public static override options: CommandOptions = {
+    startApp: true,
+  }
 
   async run() {
     const pingValue = await this.prompt.ask('Ping', {
